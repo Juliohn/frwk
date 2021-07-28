@@ -18,8 +18,8 @@ export function TabRoutes() {
         activeTintColor: theme.colors.active,
         inactiveTintColor: theme.colors.inactive,
         style: {
-          paddingVertical: Platform.OS === 'ios' ? 20 : 0,
-          height: 88,
+          paddingVertical: Platform.OS === 'ios' ? 20 : 10,
+          height: Platform.OS === 'ios' ? 88 : 58,
         },
       }}>
       <Screen
