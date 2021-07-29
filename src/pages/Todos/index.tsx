@@ -21,7 +21,6 @@ export default function Posts() {
   const [sync, setSync] = useState(false);
 
   useEffect(() => {
-    resetData();
     loadData();
   }, []);
 

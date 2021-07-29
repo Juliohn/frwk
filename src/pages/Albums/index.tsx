@@ -22,7 +22,6 @@ export default function Posts() {
 
   useEffect(() => {
     setLoading(true);
-    resetData();
     loadData();
   }, []);
 
